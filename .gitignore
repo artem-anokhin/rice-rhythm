@@ -1,0 +1,22 @@
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.env
+.netrc
+*token*
+
+# raw data and large binaries
+data/
+data_*/
+raw/
+*.nc
+*.h5
+logs/
+demo_backup/
+*.orig
+
+# intermediate outputs (keep only the final one)
+out/
+out_*/
+!out_final_v6/
